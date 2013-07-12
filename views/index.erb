@@ -1,0 +1,19 @@
+<html>
+  <head>...</head>
+  <body>
+    <h1>...</h1>
+    <form>...</form>
+
+    <h3>Existing Ideas</h3>
+
+    <ul>
+      <% ideas.each do |idea| %>
+        <li>
+          <%= idea.title %><br/>
+          <%= idea.description %>
+        </li>
+      <% end %>
+    </ul>
+
+</body>
+</html>
